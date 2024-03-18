@@ -1,0 +1,158 @@
+header {
+    width: 1000px;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    justify-items: center;
+}
+
+#header_img {
+    width: 500px;
+}
+
+
+.ingredient {
+    height: 40px;
+    width: 40px;
+}
+
+#receipts {
+    display: flex;
+}
+
+.receipts {
+    background-color: rgba(143, 139, 139, 0.601);
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    height: 50px;
+    width: 50px;
+}
+
+.btn_green {
+    background-color: #00aa37;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    height: 50px;
+    width: 125px;
+}
+
+.ingredient_btn {
+    background-color: #00aa37;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    height: 20px;
+    width: 50px;
+}
+
+.picked_ingredient {
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+}
+
+#gateau_result {
+    height: 300px;
+    width: auto;
+}
+
+.gateau_stocker {
+    width: 150px;
+    height: auto;
+}
+
+.down {
+    width: 1200px;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    justify-items: center;
+}
+
+.existing_receipts {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgba(143, 139, 139, 0.271);
+    box-shadow: 5px 5px 5px rgba(143, 139, 139, 0.601);
+    border-radius: 5px;
+    width: 450px;
+    margin: 10px;
+}
+
+#reciep_name {
+    font-size: large;
+}
+
+.receipts_section_left {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+#up {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form * {
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+#column_right {
+    margin: 15px;
+    height: 420px;
+}
+
+#column_left {
+    width: 600px;
+    height: 300px;
+    padding: 15px;
+    margin-top: 35px;
+    border: 2px solid rgba(143, 139, 139, 0.271);
+    box-shadow: 5px 5px 5px rgba(143, 139, 139, 0.601);
+    border-radius: 5px;
+}
+
+.field {
+    border: none;
+    background-color: rgba(143, 139, 139, 0.271);
+    height: 30px;
+}
+
+.tiny {
+    width: 70px;
+    border: none;
+    background-color: rgba(143, 139, 139, 0);
+    
+}
+
+.tiny_nbr {
+    width: 40px;
+    border: none;
+    background-color: rgba(143, 139, 139, 0);
+}
+
+#name_formule{
+    width: 70px;
+}
+
+footer {
+    height: 300px;
+}

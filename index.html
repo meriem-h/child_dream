@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <img id="header_img" src="./src/logo.png">
+    </header>
+
+    <div id="content">
+
+        <article id="up" class="down">
+            <section id="column_left">
+                <h1>Ajouter une formule</h1>
+                <form action="" id="new_reciepts">
+                    <label for="formule">Formule :</label>
+
+
+
+
+
+                    <div id = "formule" class="field">
+                        <select name="ingrediant-select_1" id="ingrediant-select_1" class=" tiny"></select>
+                        <label for=" formule">*</label>
+                        <input type="number" id="nbr_1" class=" tiny_nbr" min="1" max="10">
+                        <label for="formule">+</label>
+
+                        <select name="ingrediant-select_2" id="ingrediant-select_2" class=" tiny"></select>
+                        <label for=" formule">*</label>
+                        <input type="number" id="nbr_2" class=" tiny_nbr" min="1" max="10">
+
+                        <label for="formule">+</label>
+                        <select name="ingrediant-select_3" id="ingrediant-select_3" class=" tiny"></select>
+                        <label for=" formule">*</label>
+                        <input type="number" id="nbr_3" class=" tiny_nbr" min="1" max="10">
+                        <label for="formule">=</label>
+                        <input type="text" id="name_formule" class=" tiny" placeholder="nom">
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                    <!-- <input type="text" id="formule" class="field" placeholder="nom de la recette"> -->
+                    <label for="url">Lien de l'image du resultat : </label>
+                    <input type="url" id="url" class="field">
+                    <input type="button" id="submit" class="btn_green" value="AJOUTER">
+                </form>
+                <!-- <button>Ajouter</button> -->
+            </section>
+            <section id="column_right">
+                <h1>Recettes</h1>
+            </section>
+        </article>
+
+        <article class="down">
+            <h2> -préparer une recette- </h2>
+            <p>cliquez sur les ingrédiants à ajouter</p>
+            <section id="all_emoji"></section>
+            <section id="receipts">
+                <div id="recipe_1">
+                    <div class="receipts"></div>
+                    <button class="ingredient_btn"></button>
+                </div>
+                <div id="recipe_2">
+                    <div class="receipts"></div>
+                    <button class="ingredient_btn"></button>
+                </div>
+                <div id="recipe_3">
+                    <div class="receipts"></div>
+                    <button class="ingredient_btn"></button>
+                </div>
+                <div>
+                    <button id="btn_green" class="btn_green">PRÉPARER</button>
+                </div>
+            </section>
+            <section id="result" class="down"></section>
+        </article>
+    </div>
+
+    <footer></footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
